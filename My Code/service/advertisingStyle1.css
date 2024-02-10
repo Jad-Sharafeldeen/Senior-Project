@@ -1,0 +1,1020 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+
+    background-color: #ffffff;
+}
+
+::selection {
+    color: #ffffff;
+    background: #164598;
+}
+
+.current-user {
+    z-index: 9999;
+    position: absolute;
+    align-items: center;
+    margin-left: 40vw;
+    top: 0;
+    justify-items: center;
+}
+
+.logo {
+    width: 10%;
+    margin-left: 2%;
+    margin-bottom: 1rem;
+    float: left;
+}
+
+/* copy this */
+header {
+    width: 100%;
+    position: fixed;
+    top: 0%;
+    z-index: 99;
+    background-color: rgba(255, 255, 255, 0.808);
+    transition: .5s;
+}
+
+/* copy this */
+.atsa {
+    float: right;
+
+    margin-bottom: 1%;
+}
+
+/* copy this */
+.a {
+    padding: 14px 20px;
+    display: inline-block;
+    vertical-align: bottom;
+    color: #164598;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.a:hover {
+
+    color: #164598;
+}
+
+/* copy this */
+.a:focus {
+    text-decoration: none;
+    color: #164598;
+}
+
+.about {
+
+    color: #00aeef;
+}
+
+.about:hover {
+    color: #00aeef;
+}
+
+.about:focus {
+    text-decoration: none;
+    color: #00aeef;
+}
+
+/* copy this */
+.topnav .icon {
+    display: none
+}
+
+/* copy this */
+.nav-colored {
+    background-color: #ddf6ff;
+
+
+
+}
+
+/* copy this */
+.nav-transperent {
+    margin-top: 0%;
+    background-color: transperent;
+}
+
+.topnav {
+    margin-top: 2rem;
+}
+
+
+
+
+/* start of navigation bar style*/
+.sidenav {
+    height: 0;
+    visibility: hidden;
+    width: 100%;
+    position: fixed;
+    /*     display: flex;cc
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    z-index: 1;
+    color: #ffffff;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.row11 {
+    position: fixed;
+    top: 0;
+    right: 50%;
+
+}
+
+.row2 {
+    display: block;
+
+}
+
+.icon {
+
+    width: 40px;
+    height: 30px;
+    margin-top: 1%;
+    margin-right: 1%;
+    float: right;
+
+}
+
+.sidenav a {
+
+    text-decoration: none;
+    font-size: 300px;
+    color: white;
+    display: block;
+    transition: 0s;
+
+}
+
+/*   .ux{
+    width:fit-content;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateY(50%);
+  } */
+
+#ref:hover {
+    color: #b4b4b4;
+}
+
+#ref {
+    height: fit-content;
+    width: fit-content;
+    font-family: 'montserrat';
+    font-weight: 900;
+    font-size: 100px;
+    transition: transform .5s;
+    margin: auto;
+    margin-top: 20vh;
+}
+
+#ref+#ref {
+    margin-top: -1.5%;
+}
+
+
+
+.close:hover {
+    color: #b4b4b4;
+}
+
+.sidenav .close {
+    width: fit-content;
+    margin-top: 10vh;
+    font-weight: 400;
+    margin-left: 38%;
+    font-family: 'montserrat';
+    font-size: 65px;
+    opacity: 1;
+    visibility: hidden;
+
+}
+
+.close:focus {
+    color: white;
+}
+
+.close:active {
+    color: white;
+}
+
+a.close {
+    opacity: 1 !important;
+    color: rgb(255, 255, 255);
+}
+
+/* end of navigation bar style*/
+
+
+
+.digital {
+    margin-bottom: 2%;
+    height: 75vh;
+}
+
+h1 {
+    color: #164598;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Montserrat';
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 8rem;
+    margin-bottom: 0px;
+}
+
+h2 {
+
+    color: #164598;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Montserrat';
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0px;
+
+}
+
+h2:target {
+
+    -webkit-animation: change 3s forwards;
+    -o-animation: change 3s forwards;
+    -moz-animation: change 3s forwards;
+    animation: change 3s forwards;
+}
+
+@keyframes change {
+    from {
+
+        color: #6d6e71;
+    }
+
+    to {
+
+        color: #164598;
+    }
+}
+
+h3 {
+    color: #6d6e71;
+    font-family: 'Montserrat';
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 10rem;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: justify;
+    line-height: 1.5;
+
+}
+
+.last {
+    margin-top: 1%;
+    padding-left: 30%;
+    padding-right: 30%;
+
+}
+
+.head3 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 10px;
+    padding-left: 30%;
+    padding-right: 30%;
+    text-align-last: center;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+div.col {
+
+    padding: 0;
+
+}
+
+.raw {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 15px;
+    color: #6d6e71;
+    background-color: #e2e2e2;
+    font-weight: 450;
+    font-family: 'Montserrat';
+}
+
+.bi::before {
+
+    padding: 0px;
+    margin: auto;
+    font-weight: 900;
+    font-family: montserrat;
+    font-size: 20px;
+    height: fit-content;
+}
+
+.bi {
+
+    padding: 0px;
+    margin: auto;
+    font-weight: 900;
+    font-family: montserrat;
+    font-size: 10px;
+    height: fit-content;
+}
+
+.media {
+    margin-right: 15px;
+    font-size: 10px;
+    color: #6d6e71;
+    height: fit-content;
+    margin-top: 1%;
+}
+
+
+.media:hover {
+    color: #164598;
+}
+
+.media:focus {
+    color: #6d6e71;
+}
+
+.icons {
+
+    margin-right: 50px;
+}
+
+.col.col1 {
+
+    text-align: right;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.col.col2 {
+    text-align: left;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
+
+
+/* laptop version */
+
+@media only screen and (max-width: 1700px) {
+
+
+
+    .logo {
+        width: 12%;
+        margin-left: 2%;
+        float: left;
+    }
+
+
+    header {
+        width: 100%;
+        position: fixed;
+        top: 0%;
+        z-index: 99;
+    }
+
+    .atsa {
+        margin-top: 0.5%;
+    }
+
+    .a {
+        position: flex;
+        align-items: center;
+        padding: 0 18px;
+        font-size: .9em;
+    }
+
+    /*     burger bun and inside nav bar
+ */
+    .icon {
+
+        width: 35px;
+        height: 25px;
+        margin-top: 1%;
+        margin-right: 1%;
+        float: right;
+
+    }
+
+    #ref {
+        font-family: 'montserrat';
+        font-weight: 900;
+        font-size: 70px;
+        transition: transform .5s;
+    }
+
+    .sidenav .close {
+        width: fit-content;
+
+        font-weight: 400;
+        font-family: 'montserrat';
+        font-size: 50px;
+        opacity: 1;
+    }
+
+    /* b/ inside end
+*/
+    .digital {
+        height: 65vh;
+        margin-bottom: 5%;
+    }
+
+    h1 {
+        color: #164598;
+        font-size: 40px;
+        font-weight: 700;
+        font-family: 'Montserrat';
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 0rem;
+        margin-bottom: 0px;
+    }
+
+    h2 {
+
+        color: #164598;
+        text-transform: uppercase;
+        font-size: 30px;
+        font-weight: 700;
+        font-family: 'Montserrat';
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 0px;
+
+    }
+
+    h3 {
+        color: #6d6e71;
+        font-family: 'Montserrat';
+        font-size: 13px;
+        font-weight: 400;
+        margin-bottom: 10rem;
+        margin-top: 5px;
+        padding-left: 10%;
+        padding-right: 10%;
+        text-align: justify;
+        line-height: 1.5;
+
+    }
+
+    .last {
+        margin-top: 5px;
+        padding-left: 30%;
+        padding-right: 30%;
+
+    }
+
+    .head3 {
+        font-size: 15px;
+        font-weight: 500;
+        margin-top: 5px;
+        padding-left: 30%;
+        padding-right: 30%;
+        text-align-last: center;
+    }
+
+    div.col {
+
+        padding: 0;
+
+    }
+
+    .raw {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    div.col {
+
+        padding: 0;
+
+    }
+
+    col {
+        padding: 0;
+    }
+
+    .raw {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .copyright {
+        text-align: center;
+        font-size: 15px;
+        color: #6d6e71;
+        background-color: #e2e2e2;
+        font-weight: 450;
+        margin-bottom: 0%;
+        font-family: 'Montserrat';
+    }
+
+    .bi::before {
+
+        padding: 0px;
+        margin: 0px;
+        font-weight: 900;
+        font-family: montserrat;
+        font-size: 20px;
+        height: fit-content;
+    }
+
+    .bi {
+
+        padding: 0px;
+        margin: 0px;
+        font-weight: 900;
+        font-family: montserrat;
+        font-size: 10px;
+        height: fit-content;
+    }
+
+    .media {
+        margin-right: 15px;
+        font-size: 10px;
+        color: #6d6e71;
+        height: fit-content;
+
+    }
+
+    .media:hover {
+        color: #164598;
+    }
+
+    .media:focus {
+        color: #6d6e71;
+    }
+
+    .icons {
+
+        margin-right: 50px;
+    }
+
+}
+
+
+@media only screen and (max-width: 992px) {
+
+
+    /* copy this */
+    .logo {
+        margin-top: 3%;
+        width: 20%;
+    }
+
+    header {
+        background-color: #ddf6ff;
+        z-index: 999;
+
+    }
+
+    /* copy this */
+    .a:hover {
+        text-decoration: none;
+        color: #164598;
+    }
+
+    /* copy this */
+    .a:focus {
+        text-decoration: none;
+        color: #164598;
+    }
+
+    .topnav .a {
+        display: none;
+    }
+
+    /*burger bun and inside nav bar*/
+    .icon {
+
+        width: 35px;
+        height: 25px;
+        margin-top: 2%;
+        margin-right: 2%;
+        float: right;
+
+    }
+
+    #ref {
+        font-family: 'montserrat';
+        font-weight: 900;
+        font-size: 70px;
+        transition: transform .5s;
+
+
+    }
+
+    #ref:hover {
+        color: #ffffff;
+    }
+
+    .close:hover {
+        color: #ffffff;
+    }
+
+    .sidenav .close {
+        margin-top: 15vh;
+        font-weight: 400;
+        font-size: 55px;
+        opacity: 1;
+    }
+
+    /* b/ inside end
+    */
+
+    h1 {
+        color: #164598;
+        font-size: 50px;
+        font-weight: 700;
+        font-family: 'Montserrat';
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 8rem;
+        margin-bottom: 0px;
+    }
+
+    h2 {
+        font-size: 30px;
+        color: #164598;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-family: 'Montserrat';
+        text-align: center;
+
+        margin-top: 0;
+        margin-bottom: 0px;
+
+    }
+
+    h3 {
+        color: #6d6e71;
+        font-family: 'Montserrat';
+        font-size: 18px;
+        font-weight: 400;
+        margin-bottom: 3rem;
+        margin-top: 1rem;
+        padding-left: 0;
+        padding-right: 0;
+        text-align: justify;
+        line-height: 1.5;
+
+    }
+
+    .last {
+        margin-top: 1rem;
+        padding-left: 0;
+        padding-right: 0;
+
+    }
+
+    .head3 {
+        font-size: 20px;
+        font-weight: 500;
+        margin-top: 0.5rem;
+        margin-bottom: 8%;
+        padding-left: 12%;
+        padding-right: 12%;
+        text-align-last: center;
+    }
+
+    div.col {
+
+        padding: 0;
+
+    }
+
+    col {
+        padding: 0;
+    }
+
+    .col.col1 {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .col.col2 {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .raw {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .copyright {
+        text-align: center;
+        font-size: 18px;
+        color: #6d6e71;
+        background-color: #e2e2e2;
+        font-weight: 450;
+        margin-bottom: 0%;
+        font-family: 'Montserrat';
+        margin: auto;
+        display: flex;
+    }
+
+    .digital {
+        height: 40vh;
+    }
+
+    .bi::before {
+
+        padding: 0px;
+        margin: 0px;
+        font-weight: 900;
+        font-family: montserrat;
+        font-size: 23px;
+        height: fit-content;
+    }
+
+    .bi {
+
+        padding: 0px;
+        margin: 0px;
+        font-weight: 900;
+        font-family: montserrat;
+        font-size: 20px;
+        height: fit-content;
+    }
+
+    .media {
+        margin: 0;
+        padding: 10px;
+        padding-bottom: 0;
+        text-align: center;
+        font-size: 20px;
+        color: #6d6e71;
+        height: fit-content;
+
+    }
+
+    .media:hover {
+        color: #6d6e71;
+    }
+
+    .media:focus {
+        color: #6d6e71;
+    }
+
+    .icons {
+
+        margin-right: 0px;
+    }
+}
+
+
+
+/* phone version */
+
+@media only screen and (max-width: 600px) {
+
+    /* copy this */
+    .logo {
+        margin-top: 0;
+        width: 30%;
+        margin-bottom: 5px;
+    }
+
+
+    header {
+        background-color: #ddf6ff;
+        padding-top: 4%;
+        /*   display: flex;
+        justify-content: center; */
+    }
+
+    /* copy this */
+
+    /* copy this */
+    .topnav .a {
+        display: none;
+    }
+
+    /* copy this */
+    i {
+        top: 0%;
+        right: 0%;
+        width: 50%;
+    }
+
+    /* copy this */
+    .topnav a.icon {
+        position: absolute;
+        width: fit-content;
+
+        top: 0.5rem;
+        right: 1rem;
+        font-size: 3rem;
+        display: block;
+        float: right;
+    }
+
+    /* copy this */
+    .topnav.responsive {
+        position: relative;
+    }
+
+    /* copy this */
+    .topnav.responsive a.icon {
+        position: fixed;
+        right: 1rem;
+
+    }
+
+    .atsa {
+
+        display: block;
+        /* padding-right: 35%; */
+        width: 100%;
+        padding-top: 0%;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .topnav.responsive .atsa {
+        padding-bottom: 3%;
+    }
+
+    /* copy this */
+    .topnav.responsive .a {
+        width: fit-content;
+        display: block;
+        padding: 3% 0% 0% 0%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: .9em;
+
+    }
+
+
+    h1 {
+        color: #164598;
+        font-size: 30px;
+        font-weight: 700;
+        font-family: 'Montserrat';
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 8rem;
+        margin-bottom: 0px;
+    }
+
+    h2 {
+        font-size: 20px;
+        color: #164598;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-family: 'Montserrat';
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 0px;
+
+    }
+
+    h3 {
+        color: #6d6e71;
+        font-family: 'Montserrat';
+        font-size: 13px;
+        font-weight: 400;
+        margin-bottom: 3rem;
+        margin-top: 1rem;
+        padding-left: 0;
+        padding-right: 0;
+        text-align: justify;
+        line-height: 1.5;
+
+    }
+
+    .last {
+        margin-top: 1rem;
+        padding-left: 0;
+        padding-right: 0;
+
+    }
+
+    .head3 {
+        font-size: 15px;
+        font-weight: 500;
+
+        padding-left: 12%;
+        padding-right: 12%;
+        margin-bottom: 15%;
+        text-align-last: center;
+    }
+
+    div.col {
+
+        padding: 0;
+
+    }
+
+    col {
+        padding: 0;
+    }
+
+    .col.col1 {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .col.col2 {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .raw {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .copyright {
+        text-align: center;
+        font-size: 12px;
+        color: #6d6e71;
+        background-color: #e2e2e2;
+        font-weight: 450;
+        margin-bottom: 0%;
+        font-family: 'Montserrat';
+        margin: auto;
+        display: flex;
+    }
+
+    .bi::before {
+
+        padding: 0px;
+        margin: 0px;
+        font-weight: 900;
+        font-family: montserrat;
+        font-size: 15px;
+        height: fit-content;
+    }
+
+    .bi {
+
+        padding: 0px;
+        margin: 0px;
+        font-weight: 900;
+        font-family: montserrat;
+        font-size: 10px;
+        height: fit-content;
+    }
+
+    .media {
+        margin: 0;
+        padding: 5px;
+        text-align: center;
+        font-size: 10px;
+        color: #6d6e71;
+        height: fit-content;
+
+    }
+
+
+
+    .digital {
+        height: auto;
+        margin-bottom: 7%;
+        aspect-ratio: 2/1.5;
+        object-fit: cover;
+    }
+
+    .icons {
+
+        margin-right: 0px;
+    }
+
+
+}
