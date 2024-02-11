@@ -32,7 +32,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
   }
 
 
-  $secretKey = "6LcIZ0wlAAAAAPrCRCu4aWQwmnkvGVOU4EwjEWb2";
+  $secretKey = "key";
   $responseKey = $_POST['g-recaptcha-response'];
   $userIP = $_SERVER['REMOTE_ADDR'];
 
